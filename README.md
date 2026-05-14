@@ -55,8 +55,18 @@ The Spring Boot server will run on http://localhost:8080
   ```
 The user interface will run on http://localhost:3000
 
+
+### 5. Test the Application
+A sample lab report is provided to quickly test the extraction pipeline. 
+1. Navigate to `http://localhost:3000` in your browser.
+2. Upload the `Report.pdf` located in the `/test-data` directory of this repository.
+3. Click a generated table row to trigger the AI Clinical Assistant.
+
+
 ## Future Enhancements
 
 * Integration of LangChain/OpenAI API into the Python worker for true NLP extraction of highly irregular lab reports.
 * Implementation of Spring Security with JWT for strict Provider vs. Patient login sessions.
 * Longitudinal line charts utilizing recharts for the patient-facing view.
+
+
